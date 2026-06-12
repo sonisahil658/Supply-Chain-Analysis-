@@ -36,6 +36,8 @@ Skincare understocked despite being the top revenue product (₹2.42L)
 
 <img width="1328" height="748" alt="Supply Chain Analysis Dashboard" src="https://github.com/user-attachments/assets/93e838d6-c368-46f6-a6c8-45c25c84453b" />
 
+
+
 Dashboard includes:
 
 
@@ -50,11 +52,8 @@ Customer Demographics (donut chart)
 Key Insights Strip (bottom)
 Product Type Slicer (interactive filter tabs)
 
-
-
 💡 Key Insights
 
-#InsightFinding
 Best SupplierSupplier 1 — lowest defect rate (1.80%) and fastest lead time (14.8 days)
 Top ProductSkincare — ₹2.42L revenue (42% of total) but understocked at 40.2 avg units
 Quality CrisisOnly 23% of products passed inspection — 36% failed, 41% still pending
