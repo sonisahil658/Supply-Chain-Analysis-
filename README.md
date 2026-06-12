@@ -1,4 +1,4 @@
-# Supply-Chain-Analysis
+# Supply-Chain-Analysis-Project
 
 ## Supply Chain Analysis Dashboard using Power BI and Excel 
 
