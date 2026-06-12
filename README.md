@@ -1,6 +1,6 @@
 # Supply-Chain-Analysis
 
-## Supply Chain Analysis Dashboard using Power BI and Python
+## Supply Chain Analysis Dashboard using Power BI and Excel 
 
 ## Project Overview
 
@@ -149,9 +149,7 @@ Revenue gap between top and bottom city: **41%**
 ## 🛠 Tools & Technologies
 
 * Power BI
-* Python
-* Pandas
-* NumPy
+* Microsoft Excel
 * Data Cleaning
 * Exploratory Data Analysis (EDA)
 * Data Visualization
