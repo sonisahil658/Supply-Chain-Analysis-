@@ -55,10 +55,10 @@ Product Type Slicer (interactive filter tabs)
 💡 Key Insights
 
 #InsightFinding
-🏅Best SupplierSupplier 1 — lowest defect rate (1.80%) and fastest lead time (14.8 days)
-📦Top ProductSkincare — ₹2.42L revenue (42% of total) but understocked at 40.2 avg units
-🚨Quality CrisisOnly 23% of products passed inspection — 36% failed, 41% still pending
-🛣️Route InefficiencyRoute B costs ₹595/unit — 22.7% more expensive than Route A (₹485/unit)
+Best SupplierSupplier 1 — lowest defect rate (1.80%) and fastest lead time (14.8 days)
+Top ProductSkincare — ₹2.42L revenue (42% of total) but understocked at 40.2 avg units
+Quality CrisisOnly 23% of products passed inspection — 36% failed, 41% still pending
+Route InefficiencyRoute B costs ₹595/unit — 22.7% more expensive than Route A (₹485/unit)
 
 📈 Analysis Summary
 
