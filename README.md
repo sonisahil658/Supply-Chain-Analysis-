@@ -1,86 +1,173 @@
-# Supply-Chain-Analysis-
-Supply Chain Analysis Dashboard using Power BI and Python
+# Supply-Chain-Analysis
 
- Project Overview
+## Supply Chain Analysis Dashboard using Power BI and Python
 
-This project presents a complete supply chain diagnostic analysis for a consumer goods company operating across India. The analysis covers 100 SKUs across three product categories — Skincare, Haircare, and Cosmetics — spanning 5 major Indian cities and 5 suppliers.
+## Project Overview
 
-The goal is to identify revenue patterns, supplier performance gaps, quality control issues, and logistics cost inefficiencies using Power BI for visualization and Python (Pandas) for data cleaning and EDA.
+This project presents a complete supply chain diagnostic analysis for a consumer goods company operating across India. The analysis covers **100 SKUs** across three product categories — **Skincare, Haircare, and Cosmetics** — spanning **5 major Indian cities** and **5 suppliers**.
 
+The goal is to identify revenue patterns, supplier performance gaps, quality control issues, and logistics cost inefficiencies using **Power BI** for visualization and **Python (Pandas)** for data cleaning and exploratory data analysis (EDA).
 
-Project ID: CDACL-003
+**Project ID:** CDACL-003
+**Tool:** Power BI Desktop + Python
+**Dataset:** 100 Rows × 24 Columns
+**Region:** India | FY 2024
 
-Tool: Power BI Desktop + Python
+---
 
-Dataset: 100 rows × 24 columns
+## 🎯 Business Problem
 
-Region: India | FY 2024
+A consumer goods company faces several critical supply chain challenges:
 
+* 36% of products failed quality inspection, indicating a systemic quality control issue.
+* Average defect rate is 2.28%.
+* 76% of SKUs fall into Average or Poor quality categories.
+* Route B costs 22.7% more than Route A, increasing logistics expenses.
+* Shipping delay rate stands at 17%, affecting customer satisfaction.
+* Skincare products generate the highest revenue but remain understocked.
 
+---
 
-
-🎯 Business Problem
-
-A consumer goods company faces critical challenges in its supply chain:
-
-
-36% of products failed quality inspection — systemic quality control issue
-2.28% average defect rate — 76% of SKUs in Average or Poor quality tier
-Route B costs 22.7% more than Route A — logistics budget being drained
-17% shipping delay rate — customer service level at risk
-Skincare understocked despite being the top revenue product (₹2.42L)
-
-
-
-📊 Dashboard Preview
-
-<img width="1328" height="748" alt="Supply Chain Analysis Dashboard" src="https://github.com/user-attachments/assets/93e838d6-c368-46f6-a6c8-45c25c84453b" />
+## 📊 Dashboard Preview
+<img width="1328" height="748" alt="Supply Chain Analysis Dashboard" src="https://github.com/user-attachments/assets/e2c05eb3-eed5-41f2-b92b-e3ce3081d235" />
 
 
 
-Dashboard includes:
+### Supply Chain Analysis Dashboard
 
+The dashboard includes:
 
-5 KPI Cards — Revenue, SKUs, Defect Rate, Lead Time, Inspection Fails
-Revenue by Product Type (bar chart)
-Top Locations by Revenue (ranked horizontal bars)
-Transportation Modes (donut chart)
-Supplier Performance Table (with conditional formatting)
-Quality Tier Breakdown
-Inspection Results (color-coded bar chart)
-Customer Demographics (donut chart)
-Key Insights Strip (bottom)
-Product Type Slicer (interactive filter tabs)
+* 5 KPI Cards (Revenue, SKUs, Defect Rate, Lead Time, Inspection Fails)
+* Revenue by Product Type (Bar Chart)
+* Top Locations by Revenue (Ranked Horizontal Bar Chart)
+* Transportation Modes Distribution (Donut Chart)
+* Supplier Performance Table with Conditional Formatting
+* Quality Tier Breakdown
+* Inspection Results Analysis
+* Customer Demographics Overview
+* Key Insights Panel
+* Product Type Slicer for Interactive Filtering
 
-💡 Key Insights
+---
 
-Best SupplierSupplier 1 — lowest defect rate (1.80%) and fastest lead time (14.8 days)
-Top ProductSkincare — ₹2.42L revenue (42% of total) but understocked at 40.2 avg units
-Quality CrisisOnly 23% of products passed inspection — 36% failed, 41% still pending
-Route InefficiencyRoute B costs ₹595/unit — 22.7% more expensive than Route A (₹485/unit)
+## 💡 Key Insights
 
-📈 Analysis Summary
+### Best Supplier
 
-Revenue
+**Supplier 1**
 
+* Lowest defect rate: 1.80%
+* Fastest lead time: 14.8 days
 
-Total Revenue: ₹5,77,605
-Skincare: ₹2,41,628 (41.8%) · Haircare: ₹1,74,455 (30.2%) · Cosmetics: ₹1,61,521 (28%)
-Top city: Mumbai ₹1,37,755 | Weakest: Delhi ₹81,028 (41% gap)
+### Top Product Category
 
+**Skincare**
 
-Quality
+* Revenue: ₹2.42 Lakhs
+* Contributes 42% of total revenue
+* Average stock level: 40.2 units (understocked)
 
+### Quality Crisis
 
-Pass: 23% · Fail: 36% · Pending: 41%
-Good quality (<1% defect): 24 SKUs
-Average quality (1–3%): 44 SKUs
-Poor quality (>3%): 32 SKUs
+* Passed Inspection: 23%
+* Failed Inspection: 36%
+* Pending Inspection: 41%
 
+### Route Inefficiency
 
-Logistics
+* Route A: ₹485 per unit
+* Route B: ₹595 per unit
+* Route B is 22.7% more expensive
 
+---
 
-Road 29% · Rail 28% · Air 26% · Sea 17%
-Route A: ₹485/unit ✅ · Route B: ₹595/unit ❌ · Route C: ₹500/unit
-17 orders delayed (17% delay rate)
+## 📈 Analysis Summary
+
+### Revenue Analysis
+
+| Product Category | Revenue   |
+| ---------------- | --------- |
+| Skincare         | ₹2,41,628 |
+| Haircare         | ₹1,74,455 |
+| Cosmetics        | ₹1,61,521 |
+
+**Total Revenue:** ₹5,77,605
+
+#### City Performance
+
+| City   | Revenue   |
+| ------ | --------- |
+| Mumbai | ₹1,37,755 |
+| Delhi  | ₹81,028   |
+
+Revenue gap between top and bottom city: **41%**
+
+---
+
+### Quality Analysis
+
+| Inspection Status | Percentage |
+| ----------------- | ---------- |
+| Pass              | 23%        |
+| Fail              | 36%        |
+| Pending           | 41%        |
+
+#### Quality Tiers
+
+| Quality Tier                       | SKUs |
+| ---------------------------------- | ---- |
+| Good Quality (<1% Defect Rate)     | 24   |
+| Average Quality (1–3% Defect Rate) | 44   |
+| Poor Quality (>3% Defect Rate)     | 32   |
+
+---
+
+### Logistics Analysis
+
+#### Transportation Distribution
+
+* Road: 29%
+* Rail: 28%
+* Air: 26%
+* Sea: 17%
+
+#### Route Cost Comparison
+
+| Route   | Cost per Unit |
+| ------- | ------------- |
+| Route A | ₹485          |
+| Route B | ₹595          |
+| Route C | ₹500          |
+
+#### Delivery Performance
+
+* Delayed Orders: 17
+* Delay Rate: 17%
+
+---
+
+## 🛠 Tools & Technologies
+
+* Power BI
+* Python
+* Pandas
+* NumPy
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Business Intelligence
+
+---
+
+## 📌 Project Outcome
+
+This analysis helped identify:
+
+* High-performing suppliers
+* Quality control bottlenecks
+* Costly transportation routes
+* Revenue-driving product categories
+* Inventory optimization opportunities
+* Logistics efficiency improvements
+
+The dashboard enables management to make data-driven decisions for improving overall supply chain performance.
