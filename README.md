@@ -6,12 +6,7 @@
 
 This project presents a complete supply chain diagnostic analysis for a consumer goods company operating across India. The analysis covers **100 SKUs** across three product categories — **Skincare, Haircare, and Cosmetics** — spanning **5 major Indian cities** and **5 suppliers**.
 
-The goal is to identify revenue patterns, supplier performance gaps, quality control issues, and logistics cost inefficiencies using **Power BI** for visualization and **Python (Pandas)** for data cleaning and exploratory data analysis (EDA).
-
-**Project ID:** CDACL-003
-**Tool:** Power BI Desktop + Python
-**Dataset:** 100 Rows × 24 Columns
-**Region:** India | FY 2024
+The goal is to identify revenue patterns, supplier performance gaps, quality control issues, and logistics cost inefficiencies using **Power BI** for visualization and **Excel** for data cleaning and exploratory data analysis (EDA).
 
 ---
 
